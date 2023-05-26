@@ -1,6 +1,6 @@
 # deephaven-prometheus
 
-Example extending [deephaven/deephaven-core](https://github.com/deephaven/deephaven-core) with [prometheus/jmx_exporter](https://github.com/prometheus/jmx_exporter).
+Example extending the [deephaven/deephaven-core](https://github.com/deephaven/deephaven-core) Docker image with [prometheus/jmx_exporter](https://github.com/prometheus/jmx_exporter).
 
 ## Build
 
@@ -19,5 +19,5 @@ docker run \
     deephaven-prometheus
 ```
 
-[http://localhost:10000](http://localhost:10000)
-[http://localhost:12345/metrics](http://localhost:12345/metrics)
+* [http://localhost:10000](http://localhost:10000)
+* [http://localhost:12345/metrics](http://localhost:12345/metrics)
